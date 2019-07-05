@@ -1,0 +1,26 @@
+.large-hero {
+    position: relative;
+    background: url(../../images/hero--bg.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.large-hero__title {
+    width: 95%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 2.8rem;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+.large-hero::after {
+    content: "";
+    clear: both;
+    display: table;
+}

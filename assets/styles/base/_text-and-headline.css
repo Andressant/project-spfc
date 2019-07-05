@@ -1,0 +1,198 @@
+.text-content {
+    font-weight: 600;
+    line-height: 1.6;
+}
+
+.text-content__white {
+    color: #fff;
+}
+
+.text-content__bold {
+    font-weight: bold;
+}
+
+.headline {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.125;
+}
+
+.headline__white {
+    color: #fff;
+}
+
+.headline__red {
+    color: #D51635;
+}
+
+.headline--b-margin {
+    margin-bottom: 1.5em;
+}
+
+.big-title {
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.big-title__uppercase {
+    text-transform: uppercase;
+}
+
+.big-title__b-margin {
+    margin-bottom: 1.5em;
+}
+
+.rogerio-ceni__text {
+    font-size: 1.2rem;
+    color: #D51635;
+    text-align: center;
+}
+
+@media only screen and (min-width: 767px) {
+
+    .text-content--narrow-at-medium {
+        max-width: 350px;
+    }
+
+    .text-content--narrow-medium-at-medium {
+        max-width: 500px;
+    }
+
+    .big-title {
+        font-size: 3.8rem;
+        text-align: center;
+        line-height: 1;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .text-content {
+        font-weight: 400;
+    }
+
+    .big-title {
+        font-size: 4.8rem;
+    }
+
+    .big-title__b-margin {
+        margin-bottom: 0.5em;
+    }
+
+    .text-content__center-at-large {
+        text-align: center;
+    }
+
+    .headline {
+        font-size: 4rem;
+    }
+
+    .headline_center-at-large {
+        text-align: center;
+    }
+}
+
+
+/* .text-content {
+    color: #ccc;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.text-content--big {
+    font-size: 1.3125rem;
+}
+
+.text-content--medium {
+    font-size: 1.25rem;
+}
+
+.text-content--white {
+    color: #fff;
+}
+
+.text-content--centered {
+    text-align: center;
+}
+
+.text-content--narrow {
+    max-width: 450px;
+}
+
+.text-content--narrow--medium {
+    max-width: 630px;
+}
+
+.text-content-b-margin {
+    margin-bottom: 2em;
+}
+
+.headline {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.125;
+}
+
+.headline--small {
+    font-size: 1.28rem;
+}
+
+.headline--big {
+    font-size: 2.5rem;
+}
+
+.headline--centered {
+    text-align: center;
+}
+
+.headline--b-margin {
+    margin-bottom: 1.5em;
+}
+
+.headline--b-margin-small {
+    margin-bottom: 0.8em;
+}
+
+@media only screen and (min-width: 767px) {
+
+    .text-content {
+        font-weight: 400;
+    }
+
+    .headline {
+        font-size: 2.25rem;
+    }
+
+    .headline--small {
+        font-size: 2rem;
+    }
+
+    .headline--big {
+        font-size: 2.625rem;
+    }
+
+    .headline--b-margin {
+        margin-bottom: 1em;
+    }
+}
+
+@media only screen and (min-width: 1439px) {
+
+    .text-content {
+        font-weight: 300;
+    }
+
+    .text-content--narrow {
+        max-width: 600px;
+    }
+
+    .headline {
+        font-size: 2.5rem;
+    }
+
+    .headline--big {
+        font-size: 3.2rem;
+    }
+} */

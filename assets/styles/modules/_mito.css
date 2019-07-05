@@ -1,0 +1,8 @@
+.mito {
+    background-color: #000;
+}
+
+.mito__image {
+    padding-top: 3rem;
+    display: block;
+}

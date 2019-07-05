@@ -1,0 +1,38 @@
+.page-section {
+    padding: 2rem 0;
+}
+
+.page-section--medium {
+    padding: 4rem 0;
+}
+
+.page-section--top {
+    padding-top: 4rem;
+}
+
+.page-section--top--large {
+    padding-top: 8rem;
+}
+
+.page-section-no-padding-top {
+    padding: 0 0 4.5rem 0;
+}
+
+@media only screen and (min-width: 767px) {
+    .page-section {
+        padding: 3rem 0;
+    }
+}
+
+/* @media only screen and (min-width: 767px) {
+    .page-section {
+        padding: 6rem 0;
+    }
+}
+
+@media only screen and (min-width: 1439px) {
+
+    .page-section {
+        padding: 7rem 0;
+    }
+} */

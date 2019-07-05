@@ -1,0 +1,13 @@
+.hino {
+    background: url(../../images/hino--bg.jpg) center no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (min-width: 767px) {
+
+    .hino__bloco {
+        max-width: 40%;
+    }
+}
